@@ -148,8 +148,17 @@ span.yaqub {
     font-family: var(--sans);
     margin: 0 auto;
     padding: 3rem 0;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    min-width: none;
+    
 
+}
+.contact-me p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mail a {
